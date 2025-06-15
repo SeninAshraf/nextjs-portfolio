@@ -1,4 +1,10 @@
 "use client";
+import { useEffect, useState } from "react";
+
+useEffect(() => {
+  const tag = document.createElement("script");
+  document.body.appendChild(tag);
+}, []);
 
 import { navItems } from "@/data";
 
