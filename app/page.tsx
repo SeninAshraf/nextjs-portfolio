@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
